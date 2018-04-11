@@ -1,0 +1,28 @@
+{
+  "name": "angular_test",
+  "version": "1.0.0",
+  "description": "demo UI tests for site with angular front end",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/protractor/bin/protractor cucumberConf.js",
+    "posttest": "node make_html_report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnovitskaya/angular_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnovitskaya/angular_test/issues"
+  },
+  "homepage": "https://github.com/gnovitskaya/angular_test#readme",
+  "devDependencies": {
+    "cucumber": "^4.2.1",
+    "cucumber-assert": "^2.0.1",
+    "cucumber-html-reporter": "^4.0.2",
+    "protractor": "^5.3.1",
+    "protractor-cucumber-framework": "^4.2.0",
+    "webdriver-manager": "^12.0.6"
+  }
+}
